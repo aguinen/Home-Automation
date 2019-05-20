@@ -1,5 +1,5 @@
 # Home-Automation
-Using HTML, PHP and Python3 to enable home automation
+Using HTML, PHP, Javascript and Python3 to enable home automation
 
 The goal of this project is to create an easy to use, dynamic and scalable environment for home automation projects. 
 
