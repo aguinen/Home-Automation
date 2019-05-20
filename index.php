@@ -7,7 +7,7 @@
 	</script>
 <body style="background: linear-gradient(to bottom, #a6a6a6 0%, #204060 100%")> <!--- inline CSS for gradient--->
 <style>
-.button {	<!---describes the button class CSS--->
+.button {
 	background-color: #36b0b0;
 	border: none;
 	color: white;
@@ -21,7 +21,7 @@
 	transition-duration: 0.4s;	
 }
 
-.button:hover {	<!--Creates an action when hovering over a button-->
+.button:hover {
 	background-color: #1f7a7a;	
 }
 
@@ -36,7 +36,7 @@
 	justify-content: center;
 }
 
-img.one {		<!--describes the RasPi image with auto scaling to 500px-->
+img.one {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -44,7 +44,7 @@ img.one {		<!--describes the RasPi image with auto scaling to 500px-->
 	width: 500px;
 }
 
-img.two {		<!--describes the Git image&hyperlink with auto scaling-->
+img.two {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -54,7 +54,7 @@ img.two {		<!--describes the Git image&hyperlink with auto scaling-->
 </style>
 
 <div id="wholePage"> 
-<form method="post">	<!--form that uses update method with button activation-->
+<form method="post">
 	<button name="toggle" class="button button1" type="submit" value="change">Toggle Light</button>
 </form>
 </div>
